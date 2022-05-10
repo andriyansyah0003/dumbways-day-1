@@ -6,12 +6,16 @@
 
 body {
   font-family: poppins, sans-serif;
-  width: 60%;
-  margin: auto;
+}
+
+.container {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  margin: 40px 80px;
+  border-radius: 4px;
+  padding: 50px 40px;
 }
 
 h1 {
-  margin-top: 60px;
   margin-bottom: 20px;
   font-weight: bold;
 }
@@ -35,9 +39,10 @@ i.download {
   border-radius: 24px;
   color: #fff;
   font-size: 16px;
-  padding: 6px 24px;
+  padding: 8px 30px;
   display: block;
   margin-bottom: 15px;
+  border: none;
 }
 
 .btn-contact:hover {
@@ -45,7 +50,7 @@ i.download {
   border-radius: 24px;
   cursor: pointer;
   font-size: 16px;
-  padding: 6px 24px;
+  padding: 8px 30px;
 }
 
 .social-media {
@@ -65,6 +70,6 @@ img.img-profile {
   border-radius: 5px 5px 0 0;
 }
 
-.container {
+.card-body {
   padding: 6px 16px;
 }
